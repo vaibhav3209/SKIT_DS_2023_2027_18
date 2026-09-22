@@ -6,7 +6,7 @@ from json_parser import parse_command
 from signal_controller import SignalController
 
 
-TEST_JSON_COMMAND = '{"junction":"Nindar","state":"GREEN","duration":10}'
+TEST_JSON_COMMAND = '{"junction":"Nindar","state":"GREEN","duration":1}'
 
 
 def main() -> None:
