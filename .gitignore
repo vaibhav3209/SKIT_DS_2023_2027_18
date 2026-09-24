@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.cache/
+
+# Python
+__pycache__/
+
+# Virtual environments
+myenv/
+
+
+# Editor/IDE
+.vscode/
+.idea/
+
+
+# Environment variables (if you ever add config secrets)
+.env
+.env.local
+
+# Logs
+*.log
