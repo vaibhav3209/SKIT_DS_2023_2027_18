@@ -132,48 +132,38 @@ Our goal is to develop a system that can make intelligent traffic signal decisio
 ## 👥 Meet the Team
 
 We believe great systems are built through collaboration. Meet the people working to make urban traffic smarter.
-
-<!-- Replace the placeholders with your actual team members and GitHub usernames. -->
+## 👥 Meet the Team
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <a href="https://github.com/GITHUB_USERNAME_1">
-        <img src="https://github.com/GITHUB_USERNAME_1.png" width="120" height="120" alt="Team Member 1" style="border-radius:50%;" />
-        <br />
-        <strong>Team Member 1</strong>
-      </a>
+    <td>
+      **Team Member 1**
       <br />
-      <sub>Project Lead / Developer</sub>
-      <br />
-      <a href="https://github.com/GITHUB_USERNAME_1">@GITHUB_USERNAME_1</a>
+      [@vaibhav3209](https://github.com/vaibhav3209)
     </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/GITHUB_USERNAME_2">
-        <img src="https://github.com/GITHUB_USERNAME_2.png" width="120" height="120" alt="Team Member 2" style="border-radius:50%;" />
-        <br />
-        <strong>Team Member 2</strong>
-      </a>
+  </tr>
+  <tr>
+    <td>
+      **Team Member 2**
       <br />
-      <sub>Dataset & Simulation</sub>
-      <br />
-      <a href="https://github.com/GITHUB_USERNAME_2">@GITHUB_USERNAME_2</a>
+      [@nitinyadav-21](https://github.com/nitinyadav-21)
     </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/GITHUB_USERNAME_3">
-        <img src="https://github.com/GITHUB_USERNAME_3.png" width="120" height="120" alt="Team Member 3" style="border-radius:50%;" />
-        <br />
-        <strong>Team Member 3</strong>
-      </a>
+  </tr>
+  <tr>
+    <td>
+      **Team Member 3**
       <br />
-      <sub>Algorithm & Optimization</sub>
+      [@niteshsh34](https://github.com/niteshsh34)
+    </td>
+  </tr>
+  <tr>
+    <td>
+      **Team Member 4**
       <br />
-      <a href="https://github.com/GITHUB_USERNAME_3">@GITHUB_USERNAME_3</a>
+      [@Raihan-218](https://github.com/Raihan-218)
     </td>
   </tr>
 </table>
-
-> 💡 Add or remove cards depending on the size of your team. GitHub profile pictures load automatically from the usernames in the image URLs.
 
 ---
 
@@ -234,10 +224,8 @@ Potential future improvements include:
 * Comparing rule-based control with machine-learning-based approaches.
 * Developing a dashboard for monitoring traffic conditions and signal decisions.
 
-These are planned possibilities, not claims about features already implemented.
 
 ---
-
 ## 🤝 Contributing
 
 We welcome collaboration and ideas that can help improve urban traffic management.
