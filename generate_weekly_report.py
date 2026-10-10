@@ -91,7 +91,7 @@ def get_git_metrics(interval="weekly"):
                 current_author = None
                 continue
             # -----------------------------
-           if author.lower().startswith("vaibhav"):
+            if author.lower().startswith("vaibhav"):
                 author = "Vaibhav"
             current_author = author
             current_date_str = date_str
