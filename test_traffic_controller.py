@@ -39,7 +39,10 @@ class TrafficControllerTests(unittest.TestCase):
             {"junction": "Unknown", "state": "GREEN", "duration": 10},
             {"junction": "Delhi", "state": "BLUE", "duration": 10},
             {"junction": "Delhi", "state": "GREEN", "duration": -5},
+            {"junction": "Delhi", "state": "GREEN", "duration": float("nan")},
+            {"junction": "Delhi", "state": "GREEN", "duration": float("inf")},
             {"junction": "Delhi", "state": "GREEN"},
+            '{"junction":"Delhi","state":"GREEN","duration":NaN}',
         )
 
         for invalid_command in invalid_commands:

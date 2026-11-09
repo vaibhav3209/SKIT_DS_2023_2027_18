@@ -1,6 +1,7 @@
 """Parse and validate commands for the traffic-light controller."""
 
 import json
+import math
 from collections.abc import Mapping
 from dataclasses import dataclass
 from typing import Any
@@ -48,9 +49,15 @@ def parse_command(json_command: str | bytes | bytearray | Mapping[str, Any]) -> 
 
         if isinstance(duration, bool) or not isinstance(duration, (int, float)):
             raise ValueError("duration must be a number")
+        try:
+            duration = float(duration)
+        except (OverflowError, ValueError) as error:
+            raise ValueError("duration must be a finite number") from error
+        if not math.isfinite(duration):
+            raise ValueError("duration must be a finite number")
         if duration <= 0:
             raise ValueError("duration must be greater than zero")
 
-        return TrafficCommand(junction, state, float(duration))
+        return TrafficCommand(junction, state, duration)
     except json.JSONDecodeError as error:
         raise ValueError(f"invalid JSON: {error.msg}") from error
